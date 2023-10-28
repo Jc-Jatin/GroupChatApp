@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group Chat</title>
+</head>
+<body>
+  <div id="loginForm">
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+  <div id="chatForm" style="display: none;">
+    <form>
+      <label for="message">Message:</label>
+      <input type="text" id="message" required>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+
+  <div id="chatMessages"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
